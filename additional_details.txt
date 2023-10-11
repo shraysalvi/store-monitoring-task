@@ -1,0 +1,16 @@
+admin url: 127.0.0.1:8000/admin/
+username: admin
+password: 123
+
+
+Time complexity Observations
+chunksize = 500 | time = 414 sec
+chunksize = 500 | time = 396 sec
+
+chunksize = 300 | time = 410 sec
+chunksize = 300 | time = 399 sec
+
+chunksize = 200 | time = 398 sec
+chunksize = 200 | time = 411 sec
+
+database url: https://drive.google.com/drive/folders/1GQmDo74jCy4zSn4X_VUjgdfQHJfUJQy7?usp=sharing

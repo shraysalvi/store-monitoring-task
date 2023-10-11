@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "0be0982d-fe1d-4afa-be6c-da94c88d2483",
+		"name": "Loop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30368287"
+	},
+	"item": [
+		{
+			"name": "trigger report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/trigger_report/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"trigger_report",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"report_id\": \"4ecd7055-dbfb-41f3-a7ed-35cb24a0cc0d\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/get_report/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"get_report",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
