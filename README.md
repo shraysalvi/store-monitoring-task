@@ -15,7 +15,7 @@ The Loop Store Monitoring System is designed to monitor the online status of sev
   - [API and Admin Views](#api-and-admin-views)
   - [Setup and Testing](#setup-and-testing)
   - [Screenshots](#screenshots)
-  - [Feedback \& Contribution](#feedback--contribution)
+  - [Feedback](#feedback)
 
 ## Problem Statement
 
@@ -106,9 +106,10 @@ To dive deeper, explore the provided codebase or refer to the in-line comments w
     docker-compose up
     ```
 5. For API testing, import the `Loop.postman_collection.json` into Postman.
+   OR
 6. Directly use the REST API endpoints:
    - `localhost:8000/trigger_report/`
-   - `localhost:8000/get_report/` with parameters:
+   - `localhost:8000/get_report/` (Post request) with parameters:
      ```json
      {
        "report_id": "<report_id from trigger_report>"
@@ -134,6 +135,6 @@ Ensure you place the downloaded file in the home directory of the repository.
 - Complete Report: ![Complete](presentation/complete-status.png)
 - Resultant CSV: ![CSV](presentation/resultant_report.png)
 
-## Feedback & Contribution
+## Feedback
 
 Your feedback are always welcome!
