@@ -1,10 +1,10 @@
-# Loop Store Monitoring System
+# Store Monitoring System - Loop
 
 The Loop Store Monitoring System is designed to monitor the online status of several restaurants. This backend solution allows restaurant owners to track the uptime and downtime of their stores within specified business hours.
 
 ## Table of Contents
 
-- [Loop Store Monitoring System](#loop-store-monitoring-system)
+- [Store Monitoring System - Loop](#store-monitoring-system---loop)
   - [Table of Contents](#table-of-contents)
   - [Problem Statement](#problem-statement)
     - [Data Sources](#data-sources)
@@ -74,9 +74,9 @@ Focus on `store_monitor/views.py` for the primary logic. Here's a breakdown:
     - Provides admin views for CSV uploads.
     - Useful for datasets under 100K rows due to Django's data validation which can slow the import process.
     - Admin Views:
-      - ![Import Page](presentation/importing.png)
-      - ![Confirm Import](presentation/import_confirm.png)
-      - ![Resultant Import](presentation/imported.png)
+      - Import Page: ![Import Page](presentation/importing.png)
+      - Confirm Import: ![Confirm Import](presentation/import_confirm.png)
+      - Resultant Import: ![Resultant Import](presentation/imported.png)
 
 2. **`store_monitor/views.py`**:
     - Contains the central logic to calculate and generate report.
