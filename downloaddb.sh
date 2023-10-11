@@ -7,5 +7,5 @@ if [ ! -f db.sqlite3 ]; then
 fi
 
 if [ ! -d data ]; then
-    gdown https://drive.google.com/uc?id=1GQmDo74jCy4zSn4X_VUjgdfQHJfUJQy7
+    gdown --folder https://drive.google.com/drive/u/1/folders/1GQmDo74jCy4zSn4X_VUjgdfQHJfUJQy7
 fi
